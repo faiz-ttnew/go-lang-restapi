@@ -1,0 +1,26 @@
+# Build outputs
+/bin/
+/dist/
+/expense-api
+/go-lang-restapi
+*.exe
+*.test
+*.out
+
+# Temporary files and local logs (including Air build output)
+/tmp/
+*.log
+
+# Local environment configuration
+.env
+.env.*
+!.env.example
+
+# Editor and operating system files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
