@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS expenses (
+    id INTEGER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    item TEXT NOT NULL CHECK (btrim(item) <> ''),
+    amount INTEGER NOT NULL CHECK (amount > 0)
+);
